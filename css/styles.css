@@ -168,6 +168,54 @@ select:-webkit-autofill:focus {
 }
 
 
+.hero {
+  padding-top: 130px;
+  padding-bottom: 250px;
+  /* background-image: url("../img/hero-1-bg-img.svg");
+  background-repeat: no-repeat;
+  background-position: left 0 top 205px; */
+}
+
+.hero__img-1 {
+  position: absolute;
+  left: -120px;
+}
+.hero__img-2 {
+  position: absolute;
+  right: 38px;
+  bottom: -150px;
+}
+
+.hero__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hero__title {
+  margin-right: 30px;
+  width: 635px;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100px;
+  color: var(--white);
+}
+
+.hero__text-hr {
+  margin-bottom: 80px;
+  width: 50px;
+  height: 4px;
+  flex-shrink: 0;
+  background-color: var(--rapture-blue);
+}
+
+.hero__description {
+  width: 445px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: var(--white);
+}
 
 
 
