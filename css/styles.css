@@ -277,9 +277,6 @@ select:-webkit-autofill:focus {
   margin-right: 23px;
 }
 
-.features__item-info {
-}
-
 .features__item-title {
   margin: 0;
   font-size: 18px;
@@ -293,6 +290,86 @@ select:-webkit-autofill:focus {
   font-weight: 600;
   line-height: 25px;
   color: var(--white);
+}
+
+
+/* REVIEW */
+.review {
+  padding-top: 140px;
+  padding-bottom: 145px;
+}
+
+.review__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/icon-quotes.svg"), url("../img/icon-quotes.svg"), url("../img/icon-quotes.svg");
+  background-position: center top 200px, left 175px top 200px, right 175px top 200px;
+  background-repeat: no-repeat;
+}
+
+.review__bg-img-left {
+  position: absolute;
+  left: -100px;
+  top: -140px;
+}
+.review__bg-img-right {
+  position: absolute;
+  right: -100px;
+  bottom: -145px;
+}
+
+.review__heading {
+  margin-top: 0;
+  margin-bottom: 90px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: var(--white);
+}
+
+.review__list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.review__item {
+  text-align: center;
+}
+.review__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.review__text {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.review__author {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: var(--rapture-blue);
+}
+
+.review__status {
+  margin-top: 0;
+  margin-bottom: 32px;
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--white);
+}
+
+.review__img {
+  margin: 0;
 }
 
 
