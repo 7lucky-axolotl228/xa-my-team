@@ -87,6 +87,22 @@ img {
   opacity: 0.8;
 }
 
+
+.blue-hr {
+  margin-bottom: 80px;
+  width: 50px;
+  height: 4px;
+  flex-shrink: 0;
+  background-color: var(--rapture-blue);
+}
+
+.red-hr {
+  margin-bottom: 40px;
+  width: 50px;
+  height: 4px;
+  flex-shrink: 0;
+  background-color: var(--light-coral);
+}
 /* PLACEHOLDER STYLES */
 /* ::-webkit-input-placeholder,
 ::-moz-placeholder,
@@ -210,14 +226,6 @@ select:-webkit-autofill:focus {
   font-weight: 700;
   line-height: 100px;
   color: var(--white);
-}
-
-.hr {
-  margin-bottom: 80px;
-  width: 50px;
-  height: 4px;
-  flex-shrink: 0;
-  background-color: var(--rapture-blue);
 }
 
 .hero__description {
@@ -482,6 +490,44 @@ select:-webkit-autofill:focus {
   color: var(--white);
 }
 
+
+
+/* ABOUT PAGE */
+
+/* HERO */
+.about {
+  padding-top: 124px;
+  padding-bottom: 120px;
+}
+
+.about__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.about__img {
+  position: absolute;
+  right: -175px;
+  bottom: -122px;
+}
+
+.about__title {
+  margin-right: 30px;
+  width: 350px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100px;
+  color: var(--white);
+}
+
+.about__description {
+  width: 730px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: var(--white);
+}
 
 
 
