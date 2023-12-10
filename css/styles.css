@@ -538,8 +538,20 @@ select:-webkit-autofill:focus {
 }
 
 .compound__container {
+  position: relative;
   padding-top: 140px;
   padding-bottom: 140px;
+}
+
+.compound__bg-1 {
+  position: absolute;
+  top: 0;
+  left: -100px;
+}
+.compound__bg-2 {
+  position: absolute;
+  bottom: 0;
+  right: -98px;
 }
 
 .compound__heading {
