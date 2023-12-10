@@ -397,15 +397,21 @@ select:-webkit-autofill:focus {
 
 /* CTA */
 .cta {
-  padding-top: 76px;
-  padding-bottom: 76px;
   background-color: var(--light-coral);
 }
 
 .cta__container {
+  padding-top: 76px;
+  padding-bottom: 76px;
   position: relative;
   display: flex;
   align-items: center;
+}
+
+.cta__bg-img {
+  position: absolute;
+  left: -100px;
+  bottom: 0;
 }
 
 .cta__heading {
@@ -417,11 +423,6 @@ select:-webkit-autofill:focus {
   color: var(--sacramento-state-green);
 }
 
-.cta__bg-img {
-  position: absolute;
-  left: -100px;
-  bottom: -76px;
-}
 
 
 /* SITE FOOTER */
@@ -636,6 +637,53 @@ select:-webkit-autofill:focus {
 .compound__button:hover {
   transform: rotate(45deg);
 }
+
+
+/* CLIENTS */
+.clients {
+  background-color: var(--sacramento-state-green);
+}
+
+.clients__container {
+  position: relative;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.clients__bg-img {
+  position: absolute;
+  top: 0;
+  left: -100px;
+}
+
+.clients__heading {
+  margin-top: 0;
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: var(--white);
+}
+
+.clients__list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.clients__item:not(:last-child) {
+  margin-right: 80px;
+}
+
+.clients__logo {
+}
+
+
+
+
 
 
 @media
